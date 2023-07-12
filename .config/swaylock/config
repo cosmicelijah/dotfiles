@@ -1,0 +1,8 @@
+daemonize
+ignore-empty-password
+grace=5
+clock
+image=/home/cosmicelijah/Pictures/holo1.png
+effect-blur=50x10
+effect-vignette=0.5:0.8
+indicator
