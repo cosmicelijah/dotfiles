@@ -1,0 +1,516 @@
+2023-07-09T18:02:52.056Z [Modules] Modules initializing
+2023-07-09T18:02:52.057Z [Modules] Distribution: remote
+2023-07-09T18:02:52.057Z [Modules] Host updates: disabled
+2023-07-09T18:02:52.057Z [Modules] Module updates: enabled
+2023-07-09T18:02:52.057Z [Modules] Module install path: /home/cosmicelijah/.config/discord/0.0.27/modules
+2023-07-09T18:02:52.057Z [Modules] Module installed file path: /home/cosmicelijah/.config/discord/0.0.27/modules/installed.json
+2023-07-09T18:02:52.057Z [Modules] Module download path: /home/cosmicelijah/.config/discord/0.0.27/modules/pending
+2023-07-09T18:02:52.217Z [Modules] Bootstrapping...
+2023-07-09T18:02:52.218Z [Modules] Installing discord_desktop_core@0 from /nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2023-07-09T18:02:52.220Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2023-07-09T18:02:52.221Z [Modules] Installing discord_erlpack@0 from /nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2023-07-09T18:02:52.221Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2023-07-09T18:02:52.221Z [Modules] Installing discord_spellcheck@0 from /nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2023-07-09T18:02:52.222Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2023-07-09T18:02:52.222Z [Modules] Installing discord_utils@0 from /nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_utils.zip
+2023-07-09T18:02:52.222Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_utils.zip'
+2023-07-09T18:02:52.222Z [Modules] Installing discord_voice@0 from /nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_voice.zip
+2023-07-09T18:02:52.223Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/n6wpkg2g1j860hb3j2xz0qwmqpdlhs7j-discord-0.0.27/opt/Discord/resources/bootstrap/discord_voice.zip'
+2023-07-09T18:02:52.223Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-07-09T18:02:52.223Z [Modules] Host is up to date.
+2023-07-09T18:02:52.223Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T18:02:52.408Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-07-09T18:02:52.408Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-07-09T18:02:52.408Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-07-09T18:02:52.408Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-07-09T18:02:52.408Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-07-09T18:02:52.409Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-07-09T18:02:52.409Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip
+2023-07-09T18:02:52.715Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 1%
+2023-07-09T18:02:52.744Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 2%
+2023-07-09T18:02:52.747Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 3%
+2023-07-09T18:02:52.761Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 4%
+2023-07-09T18:02:52.768Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 5%
+2023-07-09T18:02:52.785Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 9%
+2023-07-09T18:02:52.796Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 13%
+2023-07-09T18:02:52.796Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 14%
+2023-07-09T18:02:52.800Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 15%
+2023-07-09T18:02:52.801Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 17%
+2023-07-09T18:02:52.803Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 18%
+2023-07-09T18:02:52.807Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 19%
+2023-07-09T18:02:52.808Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 20%
+2023-07-09T18:02:52.812Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 22%
+2023-07-09T18:02:52.816Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 26%
+2023-07-09T18:02:52.819Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 27%
+2023-07-09T18:02:52.821Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 29%
+2023-07-09T18:02:52.825Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 33%
+2023-07-09T18:02:52.827Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 37%
+2023-07-09T18:02:52.829Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 41%
+2023-07-09T18:02:52.833Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 45%
+2023-07-09T18:02:52.833Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 46%
+2023-07-09T18:02:52.835Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 51%
+2023-07-09T18:02:52.838Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 55%
+2023-07-09T18:02:52.841Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 59%
+2023-07-09T18:02:52.842Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 63%
+2023-07-09T18:02:52.843Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 68%
+2023-07-09T18:02:52.845Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 72%
+2023-07-09T18:02:52.846Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 76%
+2023-07-09T18:02:52.849Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 78%
+2023-07-09T18:02:52.850Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 83%
+2023-07-09T18:02:52.851Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 87%
+2023-07-09T18:02:52.852Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 91%
+2023-07-09T18:02:52.853Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 96%
+2023-07-09T18:02:52.854Z [Modules] Streaming discord_desktop_core@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip: 100%
+2023-07-09T18:02:52.855Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-07-09T18:02:52.855Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip
+2023-07-09T18:02:53.123Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 3%
+2023-07-09T18:02:53.128Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 4%
+2023-07-09T18:02:53.129Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 8%
+2023-07-09T18:02:53.131Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 16%
+2023-07-09T18:02:53.133Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 24%
+2023-07-09T18:02:53.134Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 31%
+2023-07-09T18:02:53.135Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 39%
+2023-07-09T18:02:53.137Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 43%
+2023-07-09T18:02:53.138Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 47%
+2023-07-09T18:02:53.139Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 54%
+2023-07-09T18:02:53.141Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 62%
+2023-07-09T18:02:53.142Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 66%
+2023-07-09T18:02:53.143Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 70%
+2023-07-09T18:02:53.144Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 78%
+2023-07-09T18:02:53.146Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 85%
+2023-07-09T18:02:53.148Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 93%
+2023-07-09T18:02:53.149Z [Modules] Streaming discord_erlpack@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip: 100%
+2023-07-09T18:02:53.152Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-07-09T18:02:53.153Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip
+2023-07-09T18:02:53.337Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 1%
+2023-07-09T18:02:53.339Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 2%
+2023-07-09T18:02:53.341Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 4%
+2023-07-09T18:02:53.344Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 5%
+2023-07-09T18:02:53.346Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 6%
+2023-07-09T18:02:53.348Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 7%
+2023-07-09T18:02:53.350Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 8%
+2023-07-09T18:02:53.351Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 9%
+2023-07-09T18:02:53.353Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 10%
+2023-07-09T18:02:53.355Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 11%
+2023-07-09T18:02:53.357Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 12%
+2023-07-09T18:02:53.358Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 13%
+2023-07-09T18:02:53.359Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 14%
+2023-07-09T18:02:53.361Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 15%
+2023-07-09T18:02:53.362Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 16%
+2023-07-09T18:02:53.364Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 18%
+2023-07-09T18:02:53.365Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 19%
+2023-07-09T18:02:53.366Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 20%
+2023-07-09T18:02:53.366Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 22%
+2023-07-09T18:02:53.367Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 23%
+2023-07-09T18:02:53.368Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 24%
+2023-07-09T18:02:53.369Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 25%
+2023-07-09T18:02:53.369Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 26%
+2023-07-09T18:02:53.370Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 27%
+2023-07-09T18:02:53.370Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 28%
+2023-07-09T18:02:53.371Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 29%
+2023-07-09T18:02:53.371Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 31%
+2023-07-09T18:02:53.372Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 32%
+2023-07-09T18:02:53.373Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 33%
+2023-07-09T18:02:53.373Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 34%
+2023-07-09T18:02:53.374Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 35%
+2023-07-09T18:02:53.374Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 36%
+2023-07-09T18:02:53.374Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 37%
+2023-07-09T18:02:53.375Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 38%
+2023-07-09T18:02:53.375Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 39%
+2023-07-09T18:02:53.375Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 40%
+2023-07-09T18:02:53.375Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 41%
+2023-07-09T18:02:53.375Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 42%
+2023-07-09T18:02:53.376Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 44%
+2023-07-09T18:02:53.376Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 45%
+2023-07-09T18:02:53.376Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 46%
+2023-07-09T18:02:53.376Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 47%
+2023-07-09T18:02:53.376Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 48%
+2023-07-09T18:02:53.377Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 49%
+2023-07-09T18:02:53.378Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 50%
+2023-07-09T18:02:53.378Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 51%
+2023-07-09T18:02:53.379Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 52%
+2023-07-09T18:02:53.380Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 53%
+2023-07-09T18:02:53.381Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 54%
+2023-07-09T18:02:53.382Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 55%
+2023-07-09T18:02:53.383Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 56%
+2023-07-09T18:02:53.384Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 57%
+2023-07-09T18:02:53.385Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 58%
+2023-07-09T18:02:53.386Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 59%
+2023-07-09T18:02:53.386Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 60%
+2023-07-09T18:02:53.387Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 61%
+2023-07-09T18:02:53.388Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 62%
+2023-07-09T18:02:53.394Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 63%
+2023-07-09T18:02:53.396Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 64%
+2023-07-09T18:02:53.398Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 65%
+2023-07-09T18:02:53.400Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 66%
+2023-07-09T18:02:53.401Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 67%
+2023-07-09T18:02:53.402Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 68%
+2023-07-09T18:02:53.403Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 69%
+2023-07-09T18:02:53.404Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 70%
+2023-07-09T18:02:53.405Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 71%
+2023-07-09T18:02:53.405Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 72%
+2023-07-09T18:02:53.407Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 73%
+2023-07-09T18:02:53.407Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 74%
+2023-07-09T18:02:53.408Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 75%
+2023-07-09T18:02:53.409Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 76%
+2023-07-09T18:02:53.410Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 77%
+2023-07-09T18:02:53.411Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 78%
+2023-07-09T18:02:53.412Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 79%
+2023-07-09T18:02:53.413Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 80%
+2023-07-09T18:02:53.413Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 81%
+2023-07-09T18:02:53.415Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 82%
+2023-07-09T18:02:53.415Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 83%
+2023-07-09T18:02:53.416Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 84%
+2023-07-09T18:02:53.417Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 85%
+2023-07-09T18:02:53.418Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 86%
+2023-07-09T18:02:53.419Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 87%
+2023-07-09T18:02:53.420Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 88%
+2023-07-09T18:02:53.420Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 89%
+2023-07-09T18:02:53.422Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 90%
+2023-07-09T18:02:53.422Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 91%
+2023-07-09T18:02:53.423Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 92%
+2023-07-09T18:02:53.424Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 93%
+2023-07-09T18:02:53.425Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 94%
+2023-07-09T18:02:53.426Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 95%
+2023-07-09T18:02:53.427Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 96%
+2023-07-09T18:02:53.428Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 97%
+2023-07-09T18:02:53.428Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 98%
+2023-07-09T18:02:53.430Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 99%
+2023-07-09T18:02:53.430Z [Modules] Streaming discord_spellcheck@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip: 100%
+2023-07-09T18:02:53.431Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-07-09T18:02:53.431Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip
+2023-07-09T18:02:53.601Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 2%
+2023-07-09T18:02:53.607Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 4%
+2023-07-09T18:02:53.609Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 7%
+2023-07-09T18:02:53.610Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 9%
+2023-07-09T18:02:53.611Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 11%
+2023-07-09T18:02:53.612Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 13%
+2023-07-09T18:02:53.613Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 17%
+2023-07-09T18:02:53.615Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 22%
+2023-07-09T18:02:53.617Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 24%
+2023-07-09T18:02:53.617Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 26%
+2023-07-09T18:02:53.619Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 30%
+2023-07-09T18:02:53.621Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 35%
+2023-07-09T18:02:53.622Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 37%
+2023-07-09T18:02:53.623Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 39%
+2023-07-09T18:02:53.624Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 43%
+2023-07-09T18:02:53.626Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 48%
+2023-07-09T18:02:53.627Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 50%
+2023-07-09T18:02:53.628Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 52%
+2023-07-09T18:02:53.630Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 56%
+2023-07-09T18:02:53.631Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 58%
+2023-07-09T18:02:53.632Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 61%
+2023-07-09T18:02:53.633Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 65%
+2023-07-09T18:02:53.635Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 67%
+2023-07-09T18:02:53.636Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 69%
+2023-07-09T18:02:53.637Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 73%
+2023-07-09T18:02:53.638Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 75%
+2023-07-09T18:02:53.638Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 77%
+2023-07-09T18:02:53.639Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 79%
+2023-07-09T18:02:53.639Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 82%
+2023-07-09T18:02:53.640Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 84%
+2023-07-09T18:02:53.641Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 86%
+2023-07-09T18:02:53.641Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 88%
+2023-07-09T18:02:53.641Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 90%
+2023-07-09T18:02:53.642Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 95%
+2023-07-09T18:02:53.643Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 97%
+2023-07-09T18:02:53.643Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 99%
+2023-07-09T18:02:53.644Z [Modules] Streaming discord_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip: 100%
+2023-07-09T18:02:53.646Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-07-09T18:02:53.646Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip
+2023-07-09T18:02:53.849Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 1%
+2023-07-09T18:02:53.855Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 2%
+2023-07-09T18:02:53.862Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 3%
+2023-07-09T18:02:53.865Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 5%
+2023-07-09T18:02:53.866Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 6%
+2023-07-09T18:02:53.866Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 7%
+2023-07-09T18:02:53.868Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 8%
+2023-07-09T18:02:53.869Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 9%
+2023-07-09T18:02:53.871Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 10%
+2023-07-09T18:02:53.872Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 11%
+2023-07-09T18:02:53.873Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 12%
+2023-07-09T18:02:53.874Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 13%
+2023-07-09T18:02:53.875Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 14%
+2023-07-09T18:02:53.876Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 15%
+2023-07-09T18:02:53.879Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 16%
+2023-07-09T18:02:53.881Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 17%
+2023-07-09T18:02:53.883Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 18%
+2023-07-09T18:02:53.885Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 19%
+2023-07-09T18:02:53.887Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 20%
+2023-07-09T18:02:53.893Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 21%
+2023-07-09T18:02:53.895Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 22%
+2023-07-09T18:02:53.897Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 23%
+2023-07-09T18:02:53.900Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 24%
+2023-07-09T18:02:53.902Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 25%
+2023-07-09T18:02:53.905Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 26%
+2023-07-09T18:02:53.910Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 27%
+2023-07-09T18:02:53.912Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 28%
+2023-07-09T18:02:53.914Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 29%
+2023-07-09T18:02:53.916Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 30%
+2023-07-09T18:02:53.917Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 31%
+2023-07-09T18:02:53.921Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 32%
+2023-07-09T18:02:53.923Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 33%
+2023-07-09T18:02:53.924Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 34%
+2023-07-09T18:02:53.927Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 35%
+2023-07-09T18:02:53.929Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 36%
+2023-07-09T18:02:53.930Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 37%
+2023-07-09T18:02:53.933Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 38%
+2023-07-09T18:02:53.935Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 39%
+2023-07-09T18:02:53.936Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 40%
+2023-07-09T18:02:53.938Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 41%
+2023-07-09T18:02:53.940Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 42%
+2023-07-09T18:02:53.943Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 43%
+2023-07-09T18:02:53.953Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 44%
+2023-07-09T18:02:53.964Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 45%
+2023-07-09T18:02:53.966Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 46%
+2023-07-09T18:02:53.972Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 47%
+2023-07-09T18:02:53.988Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 48%
+2023-07-09T18:02:53.991Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 49%
+2023-07-09T18:02:53.998Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 50%
+2023-07-09T18:02:54.004Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 51%
+2023-07-09T18:02:54.006Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 52%
+2023-07-09T18:02:54.007Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 53%
+2023-07-09T18:02:54.009Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 54%
+2023-07-09T18:02:54.015Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 55%
+2023-07-09T18:02:54.020Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 56%
+2023-07-09T18:02:54.021Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 57%
+2023-07-09T18:02:54.025Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 58%
+2023-07-09T18:02:54.038Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 59%
+2023-07-09T18:02:54.040Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 60%
+2023-07-09T18:02:54.056Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 61%
+2023-07-09T18:02:54.082Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 62%
+2023-07-09T18:02:54.084Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 63%
+2023-07-09T18:02:54.098Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 64%
+2023-07-09T18:02:54.107Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 65%
+2023-07-09T18:02:54.112Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 66%
+2023-07-09T18:02:54.116Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 67%
+2023-07-09T18:02:54.118Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 68%
+2023-07-09T18:02:54.122Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 69%
+2023-07-09T18:02:54.124Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 70%
+2023-07-09T18:02:54.127Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 71%
+2023-07-09T18:02:54.130Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 72%
+2023-07-09T18:02:54.131Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 73%
+2023-07-09T18:02:54.133Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 74%
+2023-07-09T18:02:54.134Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 75%
+2023-07-09T18:02:54.136Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 76%
+2023-07-09T18:02:54.137Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 77%
+2023-07-09T18:02:54.138Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 78%
+2023-07-09T18:02:54.138Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 79%
+2023-07-09T18:02:54.139Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 80%
+2023-07-09T18:02:54.140Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 81%
+2023-07-09T18:02:54.141Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 82%
+2023-07-09T18:02:54.141Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 83%
+2023-07-09T18:02:54.146Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 85%
+2023-07-09T18:02:54.146Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 86%
+2023-07-09T18:02:54.148Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 87%
+2023-07-09T18:02:54.150Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 88%
+2023-07-09T18:02:54.152Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 89%
+2023-07-09T18:02:54.154Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 90%
+2023-07-09T18:02:54.157Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 91%
+2023-07-09T18:02:54.158Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 92%
+2023-07-09T18:02:54.160Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 93%
+2023-07-09T18:02:54.162Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 94%
+2023-07-09T18:02:54.163Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 95%
+2023-07-09T18:02:54.165Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 96%
+2023-07-09T18:02:54.167Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 97%
+2023-07-09T18:02:54.169Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 98%
+2023-07-09T18:02:54.171Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 99%
+2023-07-09T18:02:54.172Z [Modules] Streaming discord_voice@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip: 100%
+2023-07-09T18:02:54.173Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-07-09T18:02:54.173Z [Modules] Installing updates...
+2023-07-09T18:02:54.173Z [Modules] Installing discord_desktop_core@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_desktop_core-1.zip
+2023-07-09T18:02:54.214Z [Modules] Installing discord_erlpack@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_erlpack-1.zip
+2023-07-09T18:02:54.255Z [Modules] Installing discord_spellcheck@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_spellcheck-1.zip
+2023-07-09T18:02:54.655Z [Modules] Installing discord_utils@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_utils-1.zip
+2023-07-09T18:02:54.886Z [Modules] Installing discord_voice@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_voice-1.zip
+2023-07-09T18:02:55.331Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-07-09T18:02:55.332Z [Modules] Host is up to date.
+2023-07-09T18:02:55.332Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T18:02:55.334Z [Modules] No module updates available.
+2023-07-09T18:02:56.902Z [Modules] Starting to install discord_krisp...
+2023-07-09T18:02:56.902Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-07-09T18:02:56.903Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip
+2023-07-09T18:02:56.916Z [Modules] Starting to install discord_game_utils...
+2023-07-09T18:02:57.082Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 1%
+2023-07-09T18:02:57.084Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 2%
+2023-07-09T18:02:57.088Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 3%
+2023-07-09T18:02:57.091Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 4%
+2023-07-09T18:02:57.093Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 5%
+2023-07-09T18:02:57.094Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 6%
+2023-07-09T18:02:57.097Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 7%
+2023-07-09T18:02:57.150Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 8%
+2023-07-09T18:02:57.156Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 9%
+2023-07-09T18:02:57.160Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 10%
+2023-07-09T18:02:57.161Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 11%
+2023-07-09T18:02:57.164Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 12%
+2023-07-09T18:02:57.167Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 13%
+2023-07-09T18:02:57.169Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 14%
+2023-07-09T18:02:57.170Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 15%
+2023-07-09T18:02:57.171Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 16%
+2023-07-09T18:02:57.172Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 17%
+2023-07-09T18:02:57.172Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 18%
+2023-07-09T18:02:57.173Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 19%
+2023-07-09T18:02:57.174Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 20%
+2023-07-09T18:02:57.174Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 21%
+2023-07-09T18:02:57.175Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 22%
+2023-07-09T18:02:57.176Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 23%
+2023-07-09T18:02:57.176Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 24%
+2023-07-09T18:02:57.177Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 25%
+2023-07-09T18:02:57.178Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 26%
+2023-07-09T18:02:57.178Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 27%
+2023-07-09T18:02:57.188Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 28%
+2023-07-09T18:02:57.191Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 29%
+2023-07-09T18:02:57.192Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 30%
+2023-07-09T18:02:57.195Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 31%
+2023-07-09T18:02:57.196Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 32%
+2023-07-09T18:02:57.198Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 33%
+2023-07-09T18:02:57.200Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 34%
+2023-07-09T18:02:57.202Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 35%
+2023-07-09T18:02:57.204Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 36%
+2023-07-09T18:02:57.206Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 37%
+2023-07-09T18:02:57.208Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 38%
+2023-07-09T18:02:57.210Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 39%
+2023-07-09T18:02:57.212Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 40%
+2023-07-09T18:02:57.214Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 41%
+2023-07-09T18:02:57.216Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 42%
+2023-07-09T18:02:57.218Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 43%
+2023-07-09T18:02:57.221Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 44%
+2023-07-09T18:02:57.223Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 45%
+2023-07-09T18:02:57.225Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 46%
+2023-07-09T18:02:57.227Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 47%
+2023-07-09T18:02:57.229Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 48%
+2023-07-09T18:02:57.231Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 49%
+2023-07-09T18:02:57.233Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 50%
+2023-07-09T18:02:57.235Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 51%
+2023-07-09T18:02:57.237Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 52%
+2023-07-09T18:02:57.239Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 53%
+2023-07-09T18:02:57.241Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 54%
+2023-07-09T18:02:57.242Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 55%
+2023-07-09T18:02:57.244Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 56%
+2023-07-09T18:02:57.246Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 57%
+2023-07-09T18:02:57.248Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 58%
+2023-07-09T18:02:57.250Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 59%
+2023-07-09T18:02:57.252Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 60%
+2023-07-09T18:02:57.254Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 61%
+2023-07-09T18:02:57.257Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 62%
+2023-07-09T18:02:57.258Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 63%
+2023-07-09T18:02:57.260Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 64%
+2023-07-09T18:02:57.262Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 65%
+2023-07-09T18:02:57.264Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 66%
+2023-07-09T18:02:57.266Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 67%
+2023-07-09T18:02:57.268Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 68%
+2023-07-09T18:02:57.270Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 69%
+2023-07-09T18:02:57.272Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 70%
+2023-07-09T18:02:57.274Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 71%
+2023-07-09T18:02:57.276Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 72%
+2023-07-09T18:02:57.278Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 73%
+2023-07-09T18:02:57.285Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 74%
+2023-07-09T18:02:57.286Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 76%
+2023-07-09T18:02:57.286Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 77%
+2023-07-09T18:02:57.288Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 78%
+2023-07-09T18:02:57.290Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 79%
+2023-07-09T18:02:57.292Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 80%
+2023-07-09T18:02:57.295Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 81%
+2023-07-09T18:02:57.299Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 82%
+2023-07-09T18:02:57.302Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 83%
+2023-07-09T18:02:57.304Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 84%
+2023-07-09T18:02:57.306Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 85%
+2023-07-09T18:02:57.308Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 86%
+2023-07-09T18:02:57.310Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 87%
+2023-07-09T18:02:57.312Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 88%
+2023-07-09T18:02:57.314Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 89%
+2023-07-09T18:02:57.316Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 90%
+2023-07-09T18:02:57.318Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 91%
+2023-07-09T18:02:57.320Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 92%
+2023-07-09T18:02:57.322Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 93%
+2023-07-09T18:02:57.324Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 94%
+2023-07-09T18:02:57.325Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 95%
+2023-07-09T18:02:57.328Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 96%
+2023-07-09T18:02:57.329Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 97%
+2023-07-09T18:02:57.333Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 98%
+2023-07-09T18:02:57.337Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 99%
+2023-07-09T18:02:57.340Z [Modules] Streaming discord_krisp@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip: 100%
+2023-07-09T18:02:57.341Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-07-09T18:02:57.341Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip
+2023-07-09T18:02:57.341Z [Modules] Installing discord_krisp@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_krisp-1.zip
+2023-07-09T18:02:57.501Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 2%
+2023-07-09T18:02:57.503Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 5%
+2023-07-09T18:02:57.504Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 13%
+2023-07-09T18:02:57.504Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 21%
+2023-07-09T18:02:57.504Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 23%
+2023-07-09T18:02:57.505Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 26%
+2023-07-09T18:02:57.507Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 33%
+2023-07-09T18:02:57.507Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 37%
+2023-07-09T18:02:57.508Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 39%
+2023-07-09T18:02:57.508Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 41%
+2023-07-09T18:02:57.509Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 44%
+2023-07-09T18:02:57.509Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 46%
+2023-07-09T18:02:57.510Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 48%
+2023-07-09T18:02:57.510Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 49%
+2023-07-09T18:02:57.510Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 50%
+2023-07-09T18:02:57.510Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 53%
+2023-07-09T18:02:57.511Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 56%
+2023-07-09T18:02:57.511Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 58%
+2023-07-09T18:02:57.512Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 60%
+2023-07-09T18:02:57.512Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 61%
+2023-07-09T18:02:57.513Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 62%
+2023-07-09T18:02:57.513Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 65%
+2023-07-09T18:02:57.513Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 66%
+2023-07-09T18:02:57.513Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 67%
+2023-07-09T18:02:57.514Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 70%
+2023-07-09T18:02:57.514Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 72%
+2023-07-09T18:02:57.515Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 74%
+2023-07-09T18:02:57.516Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 77%
+2023-07-09T18:02:57.516Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 78%
+2023-07-09T18:02:57.516Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 79%
+2023-07-09T18:02:57.516Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 80%
+2023-07-09T18:02:57.517Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 82%
+2023-07-09T18:02:57.517Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 84%
+2023-07-09T18:02:57.517Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 86%
+2023-07-09T18:02:57.518Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 88%
+2023-07-09T18:02:57.519Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 91%
+2023-07-09T18:02:57.519Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 93%
+2023-07-09T18:02:57.519Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 96%
+2023-07-09T18:02:57.520Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 98%
+2023-07-09T18:02:57.520Z [Modules] Streaming discord_game_utils@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip: 100%
+2023-07-09T18:02:57.521Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2023-07-09T18:02:57.591Z [Modules] Host is up to date.
+2023-07-09T18:02:57.591Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T18:02:57.593Z [Modules] No module updates available.
+2023-07-09T18:02:57.628Z [Modules] Installing discord_game_utils@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip
+2023-07-09T18:02:57.675Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2023-07-09T18:02:57.778Z [Modules] Starting to install discord_rpc...
+2023-07-09T18:02:57.779Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-07-09T18:02:57.779Z [Modules] Streaming discord_rpc@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_rpc-1.zip
+2023-07-09T18:02:57.941Z [Modules] Streaming discord_rpc@1 to /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_rpc-1.zip: 100%
+2023-07-09T18:02:57.941Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2023-07-09T18:02:57.941Z [Modules] Installing discord_rpc@1 from /home/cosmicelijah/.config/discord/0.0.27/modules/pending/discord_rpc-1.zip
+2023-07-09T18:02:57.951Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-07-09T18:10:48.705Z [Modules] Modules initializing
+2023-07-09T18:10:48.706Z [Modules] Distribution: remote
+2023-07-09T18:10:48.706Z [Modules] Host updates: disabled
+2023-07-09T18:10:48.706Z [Modules] Module updates: enabled
+2023-07-09T18:10:48.706Z [Modules] Module install path: /home/cosmicelijah/.config/discord/0.0.27/modules
+2023-07-09T18:10:48.706Z [Modules] Module installed file path: /home/cosmicelijah/.config/discord/0.0.27/modules/installed.json
+2023-07-09T18:10:48.706Z [Modules] Module download path: /home/cosmicelijah/.config/discord/0.0.27/modules/pending
+2023-07-09T18:10:48.833Z [Modules] No updates to install
+2023-07-09T18:10:48.833Z [Modules] Host is up to date.
+2023-07-09T18:10:48.833Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T18:10:49.193Z [Modules] No module updates available.
+2023-07-09T18:10:52.468Z [Modules] Host is up to date.
+2023-07-09T18:10:52.468Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T18:10:52.470Z [Modules] No module updates available.
+2023-07-09T19:08:03.742Z [Modules] Modules initializing
+2023-07-09T19:08:03.742Z [Modules] Distribution: remote
+2023-07-09T19:08:03.742Z [Modules] Host updates: disabled
+2023-07-09T19:08:03.742Z [Modules] Module updates: enabled
+2023-07-09T19:08:03.743Z [Modules] Module install path: /home/cosmicelijah/.config/discord/0.0.27/modules
+2023-07-09T19:08:03.743Z [Modules] Module installed file path: /home/cosmicelijah/.config/discord/0.0.27/modules/installed.json
+2023-07-09T19:08:03.743Z [Modules] Module download path: /home/cosmicelijah/.config/discord/0.0.27/modules/pending
+2023-07-09T19:08:03.861Z [Modules] No updates to install
+2023-07-09T19:08:03.861Z [Modules] Host is up to date.
+2023-07-09T19:08:03.861Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T19:08:04.108Z [Modules] No module updates available.
+2023-07-09T19:08:05.753Z [Modules] Host is up to date.
+2023-07-09T19:08:05.753Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-07-09T19:08:05.754Z [Modules] No module updates available.
