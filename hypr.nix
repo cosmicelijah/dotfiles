@@ -11,7 +11,6 @@
   	  };
   
   	  exec-once = "~/snowflake/hypr/pickRandomWallpaper.sh & waybar & firefox & kitty & hyprpaper & swayidle -w timeout 600 'hyprlock' timeout 605 'hyprctl dispatch dpms off' &";
-  	  
   
       monitor = ["eDP-1,preferred,auto,1.2,transform,0"];
   
@@ -84,6 +83,7 @@
   	${builtins.readFile ./hypr/mocha.conf}
   	${builtins.readFile ./hypr/binds.conf}
     ${builtins.readFile ./hypr/anims.conf}
+    ${builtins.readFile ./hypr/windowrules.conf}
   '';
   	
   
