@@ -9,6 +9,7 @@ let
   agsConfig = import ./ags.nix { inherit inputs pkgs; };
   hyprlockConfig = import ./hyprlock.nix { inherit wallpaperPath; };
   hyprpaperConfig = import ./hyprpaper.nix { inherit wallpaperPath; };
+  bashConfig = import ./bash.nix { inherit pkgs; };
 in {
   # Make Richard Stallman mad
   nixpkgs.config.allowUnfree = true;
