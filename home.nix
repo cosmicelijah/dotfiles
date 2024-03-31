@@ -102,18 +102,6 @@ in {
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-
-    ".bashrc".text = ''
-      cat ~/.bash_header | cowsay | lolcat
-      if [ -f ~/.bash_aliases ]; then
-        . ~/.bash_aliases
-        fi
-      PS1='\[\e[1;33m\]{\[\e[1;31m\]\u\[\e[1;32m\]@\[\e[1;34m\]\h\[\e[1;33m\]}-\[\e[1;33m\][\[\e[1;35m\]\w\[\e[1;33m\]]\[\e[1;37m\]\$\[\e[0;37m\] '
-      PS2='\[\e[1;35m\]>\[\e[0;37m\] '
-      export GREP_OPTIONS="--color=auto"
-      export GREP_OPTIONS="--color=auto"
-      shopt -s autocd
-    '';
   };
 
   # Home Manager can also manage your environment variables through
@@ -132,7 +120,7 @@ in {
   #  /etc/profiles/per-user/cosmicelijah/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    EDITOR = "micro";
   };
 
   # Let Home Manager install and manage itself.
