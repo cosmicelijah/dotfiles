@@ -17,6 +17,7 @@
       inputs.hyprland.follows = "hyprland";
     };
     ags.url = "github:Aylur/ags";
+    nix-alien.url = "github:thiagokokada/nix-alien";
   };
 
   outputs = { nixpkgs, home-manager, hyprland, ... }@ inputs: { 
