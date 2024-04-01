@@ -69,8 +69,6 @@
     ];
   };
 
-  programs.nix-index.enable;
-  programs.nix-locate.enable;
   ## ----------------= XServer Services =-----------------
 
   services.xserver = {
@@ -147,6 +145,8 @@
     pciutils
 
     dbus
+    nix-index
+    nix-locate
   ];
 
   ## ----------------------- Hyprland -------------------------
