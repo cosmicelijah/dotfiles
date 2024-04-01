@@ -20,7 +20,7 @@
     nix-alien.url = "github:thiagokokada/nix-alien";
   };
 
-  outputs = { nixpkgs, home-manager, hyprland, ... }@ inputs: { 
+  outputs = { self, nixpkgs, home-manager, hyprland, ... }@ inputs: { 
     nixosConfigurations.HoloOS = nixpkgs.lib.nixosSystem {
       specialArgs = { inherit inputs; };
       system = "x86_64-linux";
@@ -36,6 +36,11 @@
       modules = [
         hyprland.homeManagerModules.default
         {wayland.windowManager.hyprland.enable = true;}
+        ({ self, system, ... }: {
+          home.packages = with self.inputs.nix-alien.packages.${system}; [
+            nix-alien
+          ];
+        })
       ];
     };
   };
