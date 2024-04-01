@@ -62,7 +62,12 @@
 
   programs.light.enable = true;
   zramSwap.enable = true;
-
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      
+    ];
+  }
   ## ----------------= XServer Services =-----------------
 
   services.xserver = {
