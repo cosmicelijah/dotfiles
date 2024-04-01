@@ -68,6 +68,9 @@
       
     ];
   };
+
+  programs.nix-index.enable;
+  programs.nix-locate.enable;
   ## ----------------= XServer Services =-----------------
 
   services.xserver = {
