@@ -15,8 +15,8 @@
 	  shopt -s autocd
   	'';
 
-  	profileExtra = [
-  	  ". ~/.bash_aliases"
-  	];
+  	profileExtra = ''
+  	  . ~/.bash_aliases
+  	'';
   };
 }
