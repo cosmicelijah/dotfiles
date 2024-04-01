@@ -18,5 +18,5 @@
   	profileExtra = [
   	  ". ~/.bash_aliases"
   	];
-  }
+  };
 }
