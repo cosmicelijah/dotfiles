@@ -74,6 +74,8 @@ in {
     pkgs.nodejs
     pkgs.jdk
     pkgs.gcc
+
+    pkgs.steam-run
   	
 	
     # # It is sometimes useful to fine-tune packages, for example, by applying

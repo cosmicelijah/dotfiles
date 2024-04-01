@@ -12,7 +12,7 @@
   
   	  exec-once = "~/snowflake/hypr/pickRandomWallpaper.sh & waybar & firefox & kitty & hyprpaper & swayidle -w timeout 600 'hyprlock'";
   
-      monitor = ["eDP-1,preferred,auto"];
+      monitor = ["eDP-1,preferred,auto,1"];
   
       input = {
        	kb_layout = "us";
