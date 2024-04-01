@@ -65,7 +65,9 @@
   programs.nix-ld = {
     enable = true;
     libraries = with pkgs; [
-      
+      ncurses5
+      glibc
+      zlib
     ];
   };
 
