@@ -17,7 +17,6 @@
       inputs.hyprland.follows = "hyprland";
     };
     ags.url = "github:Aylur/ags";
-    nix-alien.url = "github:thiagokokada/nix-alien";
   };
 
   outputs = { self, nixpkgs, home-manager, hyprland, ... }@ inputs: { 
@@ -36,11 +35,6 @@
       modules = [
         hyprland.homeManagerModules.default
         {wayland.windowManager.hyprland.enable = true;}
-        ({ self, system, ... }: {
-          home.packages = with self.inputs.nix-alien.packages.${system}; [
-            nix-alien
-          ];
-        })
       ];
     };
   };
