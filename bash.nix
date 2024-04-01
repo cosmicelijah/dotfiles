@@ -13,10 +13,8 @@
   		PS2='\[\e[1;35m\]>\[\e[0;37m\] '
   		cat ~/.bash_header | cowsay | lolcat
   		shopt -s autocd
+  		. ~/.bash_aliases
   	'';
 
-  	profileExtra = ''
-  	  . ~/.bash_aliases
-  	'';
   };
 }
