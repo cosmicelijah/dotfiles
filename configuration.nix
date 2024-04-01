@@ -67,7 +67,7 @@
     libraries = with pkgs; [
       
     ];
-  }
+  };
   ## ----------------= XServer Services =-----------------
 
   services.xserver = {
