@@ -6,7 +6,7 @@
 
   	enableCompletion = true;
 
-  	historyControl = ignoredups;
+  	historyControl = "ignoredups";
 
   	initExtra = [
   	  "PS1='\[\e[1;33m\]{\[\e[1;31m\]\u\[\e[1;32m\]@\[\e[1;34m\]\h\[\e[1;33m\]}-\[\e[1;33m\][\[\e[1;35m\]\w\[\e[1;33m\]]\[\e[1;37m\]\$\[\e[0;37m\] '"
