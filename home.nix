@@ -38,6 +38,10 @@ in {
     bashConfig
   ];
 
+  programs.firefox = {
+  	enable = true;
+  }
+
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
@@ -52,7 +56,7 @@ in {
     pkgs.tree
 
     # GUI Applications
-    pkgs.firefox
+    # pkgs.firefox
     pkgs.chromium
     pkgs.webcord
     pkgs.gimp
