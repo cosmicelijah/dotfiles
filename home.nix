@@ -53,6 +53,7 @@ in {
 
     # GUI Applications
     pkgs.firefox
+    pkgs.chromium
     pkgs.webcord
     pkgs.gimp
     pkgs.electron
