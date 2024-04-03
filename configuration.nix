@@ -148,6 +148,9 @@
 
     dbus
     nix-index
+
+    
+    (steam.override { extraPkgs = pkgs: [ at-spi2-atk openssl_1_0_2 ]; nativeOnly = false; }).run
   ];
 
   ## ----------------------- Hyprland -------------------------
