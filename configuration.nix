@@ -11,6 +11,24 @@
 
   nixpkgs.config.allowUnfree = true;
 
+  nixpkgs.overlays = [
+      (self: super: {
+        steam-run = (super.steam.override {
+          extraLibraries = pkgs: with pkgs;
+            [
+              libxkbcommon
+              mesa
+              wayland
+              (sndio.overrideAttrs (old: {
+                postFixup = old.postFixup + ''
+                  ln -s $out/lib/libsndio.so $out/lib/libsndio.so.6.1
+                '';
+              }))
+            ];
+        }).run;
+      })
+    ];
+
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
