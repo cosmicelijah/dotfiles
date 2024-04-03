@@ -167,10 +167,10 @@
     dbus
     nix-index
 
-    steam-run = (super.steam.override {
-      extraLibraries = pkgs:
-        [ (pkgs.sndio.overrideAttrs (old: { version = "6.1"; })) ];
-    }).run;
+    # steam-run = (super.steam.override {
+    #   extraLibraries = pkgs:
+    #     [ (pkgs.sndio.overrideAttrs (old: { version = "6.1"; })) ];
+    # }).run;
 
     
     # (steam.override { extraPkgs = pkgs: [ at-spi2-atk openssl_1_0_2 ]; nativeOnly = false; }).run
