@@ -80,7 +80,10 @@ in {
     pkgs.jdk
     pkgs.gcc
 
-    pkgs.steam-run
+    pkgs.steam-run = (super.steam.override {
+      extraLibraries = pkgs:
+        [ (pkgs.sndio.overrideAttrs (old: { version = "6.1"; })) ];
+    }).run;
   	
 	
     # # It is sometimes useful to fine-tune packages, for example, by applying
