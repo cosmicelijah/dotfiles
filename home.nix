@@ -80,6 +80,8 @@ in {
     pkgs.jdk
     pkgs.gcc
 
+    pkgs.virt-manager
+
     # pkgs.steam-run = (super.steam.override {
     #   extraLibraries = pkgs:
     #     [ (pkgs.sndio.overrideAttrs (old: { version = "6.1"; })) ];
