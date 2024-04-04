@@ -169,6 +169,7 @@
     nix-index
 
     ncurses5
+    steam-run
 
     # steam-run = (super.steam.override {
     #   extraLibraries = pkgs:
