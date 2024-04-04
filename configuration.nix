@@ -24,7 +24,7 @@
               #     ln -s $out/lib/libsndio.so $out/lib/libsndio.so.6.1
               #   '';
               # }))
-              # libncurses5
+              ncurses5
             ];
         }).run;
       })
