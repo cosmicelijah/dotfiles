@@ -19,11 +19,12 @@
               libxkbcommon
               mesa
               wayland
-              (sndio.overrideAttrs (old: {
-                postFixup = old.postFixup + ''
-                  ln -s $out/lib/libsndio.so $out/lib/libsndio.so.6.1
-                '';
-              }))
+              # (sndio.overrideAttrs (old: {
+              #   postFixup = old.postFixup + ''
+              #     ln -s $out/lib/libsndio.so $out/lib/libsndio.so.6.1
+              #   '';
+              # }))
+              # libncurses5
             ];
         }).run;
       })
@@ -166,6 +167,8 @@
 
     dbus
     nix-index
+
+    ncurses5
 
     # steam-run = (super.steam.override {
     #   extraLibraries = pkgs:
