@@ -16,14 +16,6 @@
         steam-run = (super.steam.override {
           extraLibraries = pkgs: with pkgs;
             [
-              libxkbcommon
-              mesa
-              wayland
-              # (sndio.overrideAttrs (old: {
-              #   postFixup = old.postFixup + ''
-              #     ln -s $out/lib/libsndio.so $out/lib/libsndio.so.6.1
-              #   '';
-              # }))
               ncurses5
             ];
         }).run;
