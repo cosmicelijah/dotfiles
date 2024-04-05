@@ -10,7 +10,7 @@
   	    enable_stdout_logs = true;
   	  };
   
-  	  exec-once = "~/snowflake/hypr/pickRandomWallpaper.sh & waybar & firefox & kitty & hyprpaper & swayidle -w timeout 600 'hyprlock'";
+  	  exec-once = "~/snowflake/hypr/pickRandomWallpaper.sh & waybar & chromium & kitty & hyprpaper & swayidle -w timeout 600 'hyprlock'";
   
       monitor = ["eDP-1,preferred,auto,1"];
   
