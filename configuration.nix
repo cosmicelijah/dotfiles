@@ -32,6 +32,9 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.grub.device = "/dev/sda1";
 
+  # Extra module packages
+  boot.extraModulePackages = with config.boot.kernelPackages; [ usbip ];
+
   # Add mount options to subvols
   fileSystems = {
     "/".options = [ "compress=zstd" ];
